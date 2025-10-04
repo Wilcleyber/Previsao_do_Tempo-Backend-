@@ -1,0 +1,12 @@
+__pycache__/
+node_modules/
+*.pyc
+*.db
+*.log
+*.json
+iniciar_api.py
+.env
+venv/
+.DS_Store
+npm-debug.log*
+
