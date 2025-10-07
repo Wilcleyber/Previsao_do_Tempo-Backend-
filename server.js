@@ -1,7 +1,10 @@
 const express = require ('express');
+const cors = require('cors');
 const weatherRoutes = require('./weather_routes');
 
 const app = express();
+
+app.use(cors());
 
 app.use('/', weatherRoutes);
 

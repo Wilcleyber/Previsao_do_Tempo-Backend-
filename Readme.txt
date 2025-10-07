@@ -15,13 +15,13 @@ Este repositório contém a base lógica do projeto de previsão do tempo, desen
 - Organização de rotas para entrega de dados ao Frontend
 - Estrutura modular e clara para fácil manutenção
 
-## ✅ Testes
+## 🔗 Link do Backend (Render)
 
-Todas as rotas foram testadas manualmente via terminal e ferramentas como Postman, garantindo o funcionamento correto da aplicação.
+O backend está hospedado no Render e pode ser acessado via:
 
-## 🔗 Link de acesso
+[https://previsao-do-tempo-backend.onrender.com](https://previsao-do-tempo-backend.onrender.com)
 
-O backend será hospedado no Render. Quando disponível, o link será:
+> Observação: este link é destinado ao consumo via Frontend ou ferramentas como Postman. A rota raiz (`/`) não possui resposta direta.
 
 ## 📄 Licença
 
