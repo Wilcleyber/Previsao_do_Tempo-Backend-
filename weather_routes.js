@@ -13,6 +13,7 @@ router.get('/weather/today', async (req, res) => {
         const result = processCurrentWeather(rawData);
         res.json(result);
     } catch (error) {
+        console.error('Erro completo:', error);
         if (error.response && error.response.status === 404) {
             res.status(404).json({ error: 'Cidade não encontrada.' });
         } else {
@@ -31,6 +32,7 @@ router.get('/weather/tomorrow', async (req, res) => {
         const result = processTomorrowWeather(rawData);
         res.json(result);
     } catch (error) {
+        console.error('Erro completo:', error);
         if (error.response && error.response.status === 404) {
             res.status(404).json({ error: 'Cidade não encontrada.' });
         } else {
